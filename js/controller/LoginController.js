@@ -1,7 +1,12 @@
 
 app.controller('loginCtrl', function($scope,$window,$location) {
 	$scope.hello = 'Hellow';
+	$scope.signup=function()
+	{
 
+        	$window.location.href="signup.html";
+
+	}
 	$scope.post=function(){
 
 		/*var user = new Parse.User();

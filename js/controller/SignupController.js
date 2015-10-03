@@ -1,5 +1,5 @@
 
-app.controller('signupCtrl', function($scope) {
+app.controller('signupCtrl', function($scope,$window,$location) {
 	$scope.hello = 'Hellow';
 
 	$scope.post=function(){
